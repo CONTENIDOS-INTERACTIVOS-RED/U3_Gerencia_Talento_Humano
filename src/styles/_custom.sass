@@ -26,6 +26,18 @@
     background-color: #FFF4E6
   &-5
     background-color: #F6F3EF
+  &-6
+    background-color: #103D47
+    p
+      color: #fff
+  &-7
+    background-color: #F2F7E5
+  &-8
+    background-color: #EAE7E3
+  &-9
+    background-color: #F1EBE3
+  &-10
+    background-color: #E2DACC
   &-primario
     background-color: #86B60C
   &-secundario
@@ -67,9 +79,15 @@
     background-position: top
   &-2
     background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-position: top
   &-3
     background-image: url("../assets/bg/bg3.png") !important
+    background-position: bottom
+  &-4
+    background-image: url("../assets/bg/bg4.png") !important
+    background-position: bottom
+  &-5
+    background-image: url("../assets/bg/bg5.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -204,16 +222,17 @@ $custom-card-img-height: 200px
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: #FFE1B9
   .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
+    background-color: #FF9D1C !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: #FFF4E6 !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: #FFE1B9
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: #FF9D1C !important
+    color: #000 !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
@@ -265,6 +284,15 @@ $custom-card-img-height: 200px
 
 .lista-ul--color.color-black li > i:first-of-type
   color: #000 !important
+
+.lista-ul--color.color-purple li > i:first-of-type
+  color: #453179 !important
+
+.lista-ul--color.color-aquamarine li > i:first-of-type
+  color: #005A65 !important
+
+
+
 
 p
   margin-bottom: 24px !important
