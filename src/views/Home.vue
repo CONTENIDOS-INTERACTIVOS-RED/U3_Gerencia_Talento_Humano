@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El proceso de adquisición de talento abarca reclutamiento y selección, buscando incorporar personal alineado con la empresa. Se define el perfil del cargo y se activan diversas fuentes de reclutamiento. La selección incluye pruebas, entrevistas y validación de antecedentes. La compensación laboral combina salario, prestaciones y beneficios extralegales para retener talento. El desarrollo organizacional impulsa el cambio, optimiza estructuras y fortalece la cultura empresarial. La gestión del conocimiento facilita la innovación y toma de decisiones estratégicas, garantizando sostenibilidad y competitividad en el mercado.
+              p.descripcion.mb-4 La gestión del talento humano ha evolucionado hacia un enfoque estratégico que prioriza el desarrollo organizacional y el bienestar de los colaboradores. Entre las principales tendencias destacan el trabajo híbrido y remoto, la diversidad, equidad e inclusión (DEI), la transformación digital, el employer branding y el modelo HRBP. Además, la gestión del cambio y el liderazgo son claves para la competitividad empresarial. Prácticas como el feedback continuo, las metodologías ágiles y el mentoring y coaching fortalecen el desempeño y la adaptación en un entorno laboral dinámico y tecnológico.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

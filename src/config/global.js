@@ -1,7 +1,8 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad:
+      'Fundamentos de la gestión integral del talento humano en el contexto global.',
   },
   menuPrincipal: {
     menu: [
