@@ -383,7 +383,7 @@
         .row
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Evolución de expectativas
-          p.mb-0.p-4 La propuesta de valor debe actualizarse continuamente para seguir siendo relevante en el mercado laboral.
+            p.mb-0.p-4 La propuesta de valor debe actualizarse continuamente para seguir siendo relevante en el mercado laboral.
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/tab-2.png', alt='')
